@@ -40,7 +40,7 @@ const ProjectsSection: React.FC = () => {
       titleKey: 'projects.project3.title',
       descriptionKey: 'projects.project3.description',
       image: '✅',
-      tags: ['Node.js', 'SQLite', 'Express'],
+      tags: ['Python', 'Django', 'SQLite'],
       githubUrl: 'https://github.com/PedroAlmeida',
       demoUrl: '#',
     },

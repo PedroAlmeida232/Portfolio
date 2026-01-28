@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
             className="text-2xl font-bold text-primary"
             whileHover={{ scale: 1.05 }}
           >
-            {'<JS />'}
+            {'<PA />'}
           </motion.a>
 
           {/* Desktop Navigation */}

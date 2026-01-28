@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/PedroAlmeida', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/pedro-rodrigues-almeida-', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:perodri@gmail.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/PedroAlmeida232', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/pedro-rodrigues-almeida-63779a227/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:pedrominato23@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -21,11 +21,7 @@ const Footer: React.FC = () => {
             <span>{t('footer.rights')}</span>
           </div>
 
-          <div className="flex items-center gap-1 text-muted-foreground">
-            <span>Feito com</span>
-            <Heart className="h-4 w-4 text-destructive fill-current" />
-            <span>e muito ☕</span>
-          </div>
+          
 
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (

@@ -20,9 +20,9 @@ const SkillsSection: React.FC = () => {
     {
       key: 'backend',
       skills: [
+        { name: 'Java', level: 60, icon: '☕' },
         { name: 'Node.js', level: 90, icon: '🟢' },
-        { name: 'Python', level: 60, icon: '🐍' },
-        { name: 'MongoDB', level: 65, icon: '🍃' },
+        { name: 'Python', level: 75, icon: '🐍' },
         { name: 'SQLite', level: 50, icon: '🗄️' },
       ],
     },
@@ -41,7 +41,7 @@ const SkillsSection: React.FC = () => {
         { name: 'Git', level: 60, icon: '🔀' },
         { name: 'GitHub', level: 60, icon: '🐙' },
         { name: 'APIs REST', level: 50, icon: '🔌' },
-        { name: 'Arduino', level: 40, icon: '🔧' },
+        { name: 'Arduino', level: 60, icon: '🔧' },
       ],
     },
   ];

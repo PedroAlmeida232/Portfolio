@@ -88,7 +88,8 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.7 }}
             >
               <a 
-                href="https://github.com/PedroAlmeida" 
+                href="https://github.com/PedroAlmeida232
+" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -96,7 +97,7 @@ const HeroSection: React.FC = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com/in/pedro-rodrigues-almeida-" 
+                href="https://www.linkedin.com/in/pedro-rodrigues-almeida-63779a227/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -104,7 +105,7 @@ const HeroSection: React.FC = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:perodri@gmail.com"
+                href="mailto:pedrominato232@gmail.com"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Mail className="h-5 w-5" />

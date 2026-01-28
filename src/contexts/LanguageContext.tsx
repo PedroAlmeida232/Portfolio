@@ -21,8 +21,8 @@ export const translations: Translations = {
   'hero.name': { pt: 'Pedro Rodrigues Almeida', en: 'Pedro Rodrigues Almeida' },
   'hero.role': { pt: 'Desenvolvedor de Software', en: 'Software Developer' },
   'hero.description': { 
-    pt: 'Experiência em desenvolvimento back-end com Node.js e front-end com React. Interesse em desenvolvimento web e tecnologias emergentes.', 
-    en: 'Experience in back-end development with Node.js and front-end with React. Interested in web development and emerging technologies.' 
+    pt: 'Experiência em desenvolvimento back-end com Java e front-end com React. Interesse em desenvolvimento web e tecnologias emergentes.', 
+    en: 'Experience in back-end development with Java and front-end with React. Interested in web development and emerging technologies.' 
   },
   'hero.cta': { pt: 'Ver Projetos', en: 'View Projects' },
   'hero.contact': { pt: 'Entrar em Contato', en: 'Get in Touch' },
@@ -35,8 +35,8 @@ export const translations: Translations = {
     en: 'I\'m looking for opportunities to start my career in technology, focusing on software development. I\'m interested in learning new technologies and contributing innovative solutions.' 
   },
   'about.p2': { 
-    pt: 'Atualmente curso Bacharelado em Engenharia de Software na FIAP. Tenho experiência em desenvolvimento back-end com Node.js (avançado) e front-end com React (intermediário). Habilidade para trabalhar em equipe e disposição para aprender continuamente.', 
-    en: 'Currently pursuing a Bachelor\'s degree in Software Engineering at FIAP. I have experience in back-end development with Node.js (advanced) and front-end with React (intermediate). Skilled at teamwork with a willingness to continuously learn.' 
+    pt: 'Atualmente curso Bacharelado em Engenharia de Software na FIAP. Tenho experiência em desenvolvimento back-end com Java(intermediário) Node.js(avançado) e front-end com React (intermediário). Habilidade para trabalhar em equipe e disposição para aprender continuamente.', 
+    en: 'Currently pursuing a Bachelor\'s degree in Software Engineering at FIAP. I have experience in back-end development with Java(intermediate) Node.Js(advanced) and front-end with React (intermediate). Skilled at teamwork with a willingness to continuously learn.' 
   },
   'about.education': { pt: 'Em Formação', en: 'In Progress' },
   'about.focus': { pt: 'Foco em Backend', en: 'Backend Focus' },
@@ -65,10 +65,10 @@ export const translations: Translations = {
     pt: 'Dashboard interativo construído com React e Tailwind CSS para visualização de dados.', 
     en: 'Interactive dashboard built with React and Tailwind CSS for data visualization.' 
   },
-  'projects.project3.title': { pt: 'Sistema de Tarefas', en: 'Task System' },
+  'projects.project3.title': { pt: 'Gerenciador de estoque de roupas', en: 'Clothing inventory' },
   'projects.project3.description': { 
-    pt: 'Aplicativo de gerenciamento de tarefas com Node.js e SQLite.', 
-    en: 'Task management app with Node.js and SQLite.' 
+    pt: 'Site de gerenciamento de estoque de roupas com Python e SQLite.', 
+    en: 'Clothing inventory management website using Python and SQLite.' 
   },
   'projects.project4.title': { pt: 'Projeto IoT com Arduino', en: 'IoT Project with Arduino' },
   'projects.project4.description': { 
