@@ -39,7 +39,7 @@ const AboutSection: React.FC = () => {
                 <div className="w-full h-full bg-card rounded-xl overflow-hidden flex items-center justify-center">
                   {/* Substituição do Emoji pela Foto */}
                   <img
-                    src="../../public/teste.jpg"
+                    src="../../public/profile2.0.png"
                     alt="Sua Foto"
                     className="w-full h-full object-cover"
                   />
