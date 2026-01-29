@@ -39,7 +39,7 @@ const AboutSection: React.FC = () => {
                 <div className="w-full h-full bg-card rounded-xl overflow-hidden flex items-center justify-center">
                   {/* Substituição do Emoji pela Foto */}
                   <img
-                    src="../../public/profile2.0.png"
+                    src="/profile2.0.png"
                     alt="Sua Foto"
                     className="w-full h-full object-cover"
                   />
@@ -49,7 +49,6 @@ const AboutSection: React.FC = () => {
               </div>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
