@@ -38,9 +38,9 @@ const SkillsSection: React.FC = () => {
     {
       key: 'tools',
       skills: [
-        { name: 'Git', level: 60, icon: '🔀' },
-        { name: 'GitHub', level: 60, icon: '🐙' },
-        { name: 'APIs REST', level: 50, icon: '🔌' },
+        { name: 'Git', level: 70, icon: '🔀' },
+        { name: 'GitHub', level: 80, icon: '🐙' },
+        { name: 'APIs REST', level: 70, icon: '🔌' },
         { name: 'Arduino', level: 60, icon: '🔧' },
       ],
     },

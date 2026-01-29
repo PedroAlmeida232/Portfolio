@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <motion.span 
+            <motion.span
               className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -39,16 +39,18 @@ const HeroSection: React.FC = () => {
               {t('hero.greeting')}
             </motion.span>
 
-            <motion.h1 
+            <motion.h1
               className="text-5xl md:text-7xl font-bold mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <span className="text-gradient">{t('hero.name')}</span>
+              <span className="text-sky-500">
+                {t('hero.name')}
+              </span>
             </motion.h1>
 
-            <motion.h2 
+            <motion.h2
               className="text-2xl md:text-3xl text-muted-foreground mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -57,7 +59,7 @@ const HeroSection: React.FC = () => {
               {t('hero.role')}
             </motion.h2>
 
-            <motion.p 
+            <motion.p
               className="text-lg text-muted-foreground mb-8 max-w-lg"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -66,7 +68,7 @@ const HeroSection: React.FC = () => {
               {t('hero.description')}
             </motion.p>
 
-            <motion.div 
+            <motion.div
               className="flex flex-wrap gap-4 mb-8"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -81,30 +83,30 @@ const HeroSection: React.FC = () => {
               </Button>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="flex gap-4"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
             >
-              <a 
+              <a
                 href="https://github.com/PedroAlmeida232
-" 
-                target="_blank" 
+"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Github className="h-5 w-5" />
               </a>
-              <a 
-                href="https://www.linkedin.com/in/pedro-rodrigues-almeida-63779a227/" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/pedro-rodrigues-almeida-63779a227/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a 
+              <a
                 href="mailto:pedrominato232@gmail.com"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
               >

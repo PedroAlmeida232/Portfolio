@@ -55,25 +55,25 @@ export const translations: Translations = {
   'projects.subtitle': { pt: 'Alguns dos meus trabalhos', en: 'Some of my work' },
   'projects.viewCode': { pt: 'Ver Código', en: 'View Code' },
   'projects.viewDemo': { pt: 'Ver Demo', en: 'View Demo' },
-  'projects.project1.title': { pt: 'API REST com Node.js', en: 'REST API with Node.js' },
+  'projects.project1.title': { pt: 'SafeWater - São Paulo', en: 'SafeWater - São Paulo' },
   'projects.project1.description': { 
-    pt: 'API RESTful completa com autenticação, CRUD e integração com MongoDB.', 
-    en: 'Complete RESTful API with authentication, CRUD and MongoDB integration.' 
+    pt: 'Uma iniciativa dedicada ao desenvolvimento de soluções tecnológicas para prevenção e mitigação de enchentes na capital paulista. Utilizamos inovação, análise de dados e ferramentas digitais para tornar a cidade mais resiliente frente aos desafios climáticos.', 
+    en: 'An initiative dedicated to developing technological solutions for flood prevention and mitigation in the city of São Paulo. We use innovation, data analysis, and digital tools to make the city more resilient to climate challenges.' 
   },
-  'projects.project2.title': { pt: 'Dashboard React', en: 'React Dashboard' },
+  'projects.project2.title': { pt: 'Insight Jobs', en: 'Insight Jobs' },
   'projects.project2.description': { 
-    pt: 'Dashboard interativo construído com React e Tailwind CSS para visualização de dados.', 
-    en: 'Interactive dashboard built with React and Tailwind CSS for data visualization.' 
+    pt: 'Seu assistente de carreira inteligente. Uma solução que transforma a busca por emprego em uma experiência personalizada. Utilizamos algoritmos de filtragem para garantir que você veja apenas o que importa: a vaga certa para o seu momento profissional.', 
+    en: 'Your intelligent career assistant. A solution that transforms job searching into a personalized experience. We use filtering algorithms to ensure you only see what matters: the right job for your professional moment.' 
   },
-  'projects.project3.title': { pt: 'Gerenciador de estoque de roupas', en: 'Clothing inventory' },
+  'projects.project3.title': { pt: 'Inventory Dashboard', en: 'Inventory Dashboard' },
   'projects.project3.description': { 
-    pt: 'Site de gerenciamento de estoque de roupas com Python e SQLite.', 
-    en: 'Clothing inventory management website using Python and SQLite.' 
+    pt: 'Gerenciamento inteligente de estoque com dashboard visual e controle rigoroso de acesso multinível (Usuário, Gerente e Superior).', 
+    en: 'Intelligent inventory management with a visual dashboard and strict multi-level access control (User, Manager, and Superior).' 
   },
-  'projects.project4.title': { pt: 'Projeto IoT com Arduino', en: 'IoT Project with Arduino' },
+  'projects.project4.title': { pt: 'Assistente Inteligente RAG', en: 'Intelligent RAG Assistant' },
   'projects.project4.description': { 
-    pt: 'Sistema de automação com Arduino integrado a uma interface web.', 
-    en: 'Automation system with Arduino integrated to a web interface.' 
+    pt: 'Um assistente inteligente desenvolvido com LangChain e OpenAI que utiliza a arquitetura RAG (Retrieval-Augmented Generation). O sistema processa documentos PDF, armazena-os em uma base vetorial (Chroma DB) e gera respostas precisas e contextualizadas com base no conteúdo ingerido.', 
+    en: 'An intelligent assistant developed with LangChain and OpenAI using RAG (Retrieval-Augmented Generation) architecture. The system processes PDF documents, stores them in a vector database (Chroma DB), and generates accurate, contextualized responses based on the ingested content.' 
   },
   
   // Contact

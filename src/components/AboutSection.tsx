@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
 
   const stats = [
     { icon: GraduationCap, value: 'FIAP', label: t('about.education') },
-    { icon: Server, value: 'Node.js', label: t('about.focus') },
+    { icon: Server, value: 'Java', label: t('about.focus') },
     { icon: Sparkles, value: '∞', label: t('about.learning') },
   ];
 
@@ -36,13 +36,15 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur-xl" />
               <div className="relative aspect-square max-w-md mx-auto rounded-2xl overflow-hidden bg-gradient-to-br from-primary to-accent p-1">
-                <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="text-8xl mb-4">👨‍💻</div>
-                    <p className="text-muted-foreground font-mono text-sm">
-                      São Paulo, SP
-                    </p>
-                  </div>
+                <div className="w-full h-full bg-card rounded-xl overflow-hidden flex items-center justify-center">
+                  {/* Substituição do Emoji pela Foto */}
+                  <img
+                    src="../../public/teste.jpg"
+                    alt="Sua Foto"
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Se quiser manter o texto por cima ou abaixo, pode usar um overlay, 
+          mas para preencher o quadrado, a img deve ser o foco principal. */}
                 </div>
               </div>
             </div>

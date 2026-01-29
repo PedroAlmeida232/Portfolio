@@ -10,7 +10,7 @@ interface Project {
   image: string;
   tags: string[];
   githubUrl: string;
-  demoUrl: string;
+ 
 }
 
 const ProjectsSection: React.FC = () => {
@@ -22,18 +22,18 @@ const ProjectsSection: React.FC = () => {
       titleKey: 'projects.project1.title',
       descriptionKey: 'projects.project1.description',
       image: '🔗',
-      tags: ['Node.js', 'Express', 'MongoDB', 'REST API'],
-      githubUrl: 'https://github.com/PedroAlmeida',
-      demoUrl: '#',
+      tags: ['Python', 'HTML/CSS', 'Arduino/Wokwi', 'REST API'],
+      githubUrl: 'https://github.com/SafeWaterSp',
+      
     },
     {
       id: 2,
       titleKey: 'projects.project2.title',
       descriptionKey: 'projects.project2.description',
       image: '📊',
-      tags: ['React', 'Tailwind CSS', 'JavaScript'],
-      githubUrl: 'https://github.com/PedroAlmeida',
-      demoUrl: '#',
+      tags: ['Python','React', 'Tailwind CSS', 'JavaScript', 'REST API  '],
+      githubUrl: 'https://github.com/Insight-Jobs',
+      
     },
     {
       id: 3,
@@ -41,17 +41,17 @@ const ProjectsSection: React.FC = () => {
       descriptionKey: 'projects.project3.description',
       image: '✅',
       tags: ['Python', 'Django', 'SQLite'],
-      githubUrl: 'https://github.com/PedroAlmeida',
-      demoUrl: '#',
+      githubUrl: 'https://github.com/PedroAlmeida232/GerenciadorEstoque',
+     
     },
     {
       id: 4,
       titleKey: 'projects.project4.title',
       descriptionKey: 'projects.project4.description',
       image: '🔧',
-      tags: ['Arduino', 'HTML', 'CSS', 'JavaScript'],
-      githubUrl: 'https://github.com/PedroAlmeida',
-      demoUrl: '#',
+      tags: ['Python', 'Langchain', 'Chroma DB', 'OpenAI'],
+      githubUrl: 'https://github.com/PedroAlmeida232/RAG-Agent',
+      
     },
   ];
 
@@ -92,14 +92,7 @@ const ProjectsSection: React.FC = () => {
                   >
                     <Github className="h-5 w-5" />
                   </a>
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-background rounded-full hover:scale-110 transition-transform"
-                  >
-                    <ExternalLink className="h-5 w-5" />
-                  </a>
+
                 </div>
               </div>
 
